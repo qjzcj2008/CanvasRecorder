@@ -22,7 +22,7 @@ function CanvasRecorder(canvas, video_bits_per_sec) {
     function startRecording() {
         let types = [
             "video/webm",
-            'video/webm,codecs=vp9',
+            'video/webm\;codecs=vp9',
             'video/vp8',
             "video/webm\;codecs=vp8",
             "video/webm\;codecs=daala",
