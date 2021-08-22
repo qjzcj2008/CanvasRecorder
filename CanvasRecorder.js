@@ -41,7 +41,7 @@ function CanvasRecorder(canvas, video_bits_per_sec) {
         }
         let options = { 
             mimeType: supportedType,
-            videoBitsPerSecond: video_bits_per_sec || 2500000 // 2.5Mbps
+            videoBitsPerSecond: video_bits_per_sec || 25000000 // 25Mbps
         };
 
         recordedBlobs = [];
